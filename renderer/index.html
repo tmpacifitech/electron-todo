@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Electron Todo</title>
+  <link rel="stylesheet" href="../node_modules/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="columns">
+      <div class="column col-12">
+        <h1 class="text-center">Electron Todos</h1>
+        <button id="createTodoBtn" type="button" class="btn">
+          Create a New Todo
+        </button>
+        <button id="removeTodoBtn" type="button" class="btn">
+          Remove existing Todo
+        </button>
+        <ul id="todoList">
+          <!-- <li>
+            <div>abcsdf</div>
+            <button class="abc_btn">abc</button>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+<script>
+  // const deleteTodo = (e) => {
+  //   console.log(e.target.parentElement.querySelectorAll('div:first-of-type')[0])
+  // }
+
+  // todoList.querySelectorAll('.abc_btn').forEach(item =>
+  //   item.addEventListener('click', deleteTodo)
+  // )
+</script>
+
+</html>
